@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    padding: 0.5em;
+    background-color: #201515;
+    color: white;
+}
+
+.copyright,
+.footer-contacts,
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.footer-contacts {
+    flex-direction: column;
+    padding: 0.25em 0.25em;
+    text-align: center;
+
+}
+
+.footer-contacts a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-contacts a:hover {
+    opacity: 0.7;
+}
+
+
+.footer-social {
+    gap: 1em;
+    margin: 1em, auto;
+}
+
+.footer-social a:hover {
+    opacity: 0.7;
+}
+
+.footer-social img {
+    width: 2em;
+}

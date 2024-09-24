@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Arial;
+}
+
+.container {
+    padding: 1.5em;
+    background-color: whitesmoke;
+    font-size: 1.2em;
+}
+
+.full-width {
+    width: 100%;
+    margin: 3em auto 0em;
+}
+
+.fixed-width {
+    max-width: 800px;
+    margin: 3em auto 0em;
+}
